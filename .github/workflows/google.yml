@@ -21,9 +21,8 @@ env:
   GAR_LOCATION: us-west4-c # TODO: update region of the Artifact Registry
   GKE_CLUSTER: cmpe172-cicd	    # TODO: update to cluster name
   GKE_ZONE: us-west4-c	   # TODO: update to cluster zone
-  DEPLOYMENT_NAME: gke-test # TODO: update to deployment name
-  REPOSITORY: samples # TODO: update to Artifact Registry docker repository
-  IMAGE: static-site
+  DEPLOYMENT_NAME: spring-gumball # TODO: update to deployment name
+  IMAGE: spring-gumball
 
 jobs:
   setup-build-publish-deploy:
