@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c15113c0-0e8c-421c-8c86-2688a02385df" name="Changes" comment="Terminated 1">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initializr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kustomization.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/01CiWorkflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/02workflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/03key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/04key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/05key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/06cluster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/07release.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/08release.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/09release.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/10release.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/11confirmpods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/12workloads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/13service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/14ingress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/15gumball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/gumball-stattemodel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/gumball-uml-diagrams.asta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballMachineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/SpringGumballApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/giant-gumball-machine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/gumball.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/gumballmachine/GumballMachineTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springgumball/SpringGumballApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I9OojITm4WbOF7UMSWB85ln1w0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/lamnguyen/Documents/dev/java/spring-gumball",
+    "spring.configuration.checksum": "0725f405d8e084da4c290dc169606586"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringGumballApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-gumball.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springgumball.SpringGumballApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c15113c0-0e8c-421c-8c86-2688a02385df" name="Changes" comment="" />
+      <created>1669590509182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669590509182</updated>
+      <workItem from="1669590511592" duration="3671000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init project">
+      <created>1669622304556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669622304556</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update number of pods 4 --&gt; 2">
+      <created>1669626191858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626191858</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Testing">
+      <created>1669626550956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626550956</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Testing 1">
+      <created>1669626622900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626622900</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update repos spring-gumball">
+      <created>1669674749762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669674749762</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update repos spring-gumball">
+      <created>1669674787742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669674787742</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Terminated">
+      <created>1669674877272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669674877272</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Terminated 1">
+      <created>1669674923157</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669674923157</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Init project" />
+    <MESSAGE value="Update number of pods 4 --&gt; 2" />
+    <MESSAGE value="Testing" />
+    <MESSAGE value="Testing 1" />
+    <MESSAGE value="Update repos spring-gumball" />
+    <MESSAGE value="Terminated" />
+    <MESSAGE value="Terminated 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminated 1" />
+  </component>
+</project>
