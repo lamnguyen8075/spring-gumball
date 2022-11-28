@@ -12,7 +12,7 @@ spec:
     metadata:
       # unlike pod.yaml, the name is not included in the meta data as a unique name is
       # generated from the deployment name
-      # push for fun!
+      # push for fun fun!
       labels:
         name: spring-gumball
     spec:
