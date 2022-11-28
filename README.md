@@ -1,41 +1,32 @@
 Part 1 CI Workflow
 
-For this part it was pretty simple, I just made my own repo and added the starter code. I then created a workflow with gradle and updated the depoloyment file to make it build and the screenshots below show that it built perfectly.
-![alt text](screenshots/01CiWorkflow.png)
-![alt text](screenshots/02workflow.png)
 
--
--
 Part 2 Workflow GKE
-For this part, first I created a workflow with gke and made the needed changes to the google.yml file to ensure it worked. Below three screenshots my creation of a key process. First screenshot shows the making of the service account, then making of the key and lastly creating the secrets in github. I had a little trouble here because I put cmpe 172 as the project name and that did not work, I needed to add the id of cmpe 172 to work properly.
-![alt text](screenshots/03key.png)
-![alt text](screenshots/04key.png)
-![alt text](screenshots/05key.png)
 
--
--
-I then started up my cluster and below the screenshot shows it. When creating the cluster I followed whatever the google.yml file said and filled it in accordingly.
-![alt text](screenshots/06cluster.png)
+- My cluster is up and running 
+![Screen Shot 2022-11-28 at 3 02 18 PM](https://user-images.githubusercontent.com/48584294/204399014-7d16c9a7-62a0-4440-90bc-994b9a926c2e.png)
 
-To trigger a build I had to make a new release, by clicking on draft a new release and filling in 1.0 and that is show with the first screenshot and then the one after shows the workflow being built. The last two screenshots show the build process and it went fine and got a green check.
-![alt text](screenshots/07release.png)
-![alt text](screenshots/08release.png)
-![alt text](screenshots/09release.png)
-![alt text](screenshots/10release.png)
+- Update the configuration on google.yaml file
+![Screen Shot 2022-11-28 at 3 02 54 PM](https://user-images.githubusercontent.com/48584294/204399089-528b9773-8b9f-49ad-8c34-31af2c1356bf.png)
 
--
--
-These next 4 screenshots show the the pods being confirmed, the workloads and service. Then I created an ingress for the load balancer and the last screenshots shows it.
-![alt text](screenshots/11confirmpods.png)
-![alt text](screenshots/12workloads.png)
-![alt text](screenshots/13service.png)
-![alt text](screenshots/14ingress.png)
+- Adding service accounts
+![Screen Shot 2022-11-28 at 3 04 55 PM](https://user-images.githubusercontent.com/48584294/204399349-f15cd5fb-476f-4a63-96c3-f297b8a00a04.png)
 
--
--
-Lastly it worked perfectly and the gumball image showed up!!
-![alt text](screenshots/15gumball.png)
+- Creating Key for the new service account
+![Screen Shot 2022-11-28 at 3 05 27 PM](https://user-images.githubusercontent.com/48584294/204399402-b157ed5d-72b0-4ceb-8343-d0f0f4bc0410.png)
 
--
--
-I didn't have many issues in this lab, only issue of mine was to make sure everything was spelled correctly and the json file was copied properly. Only issue was that I was confused on which project name to put and the cmpe172 was not the right one but the cmpe172-######, or the identification number worked perfectly
+- Update the Git Secrets
+![Screen Shot 2022-11-28 at 3 04 12 PM](https://user-images.githubusercontent.com/48584294/204399258-1c01fb62-5ee9-45fe-b319-a3f859be57ae.png)
+
+- Grant permission to Kubernetes Engine Developer and Storage Admin
+![Screen Shot 2022-11-28 at 3 07 33 PM](https://user-images.githubusercontent.com/48584294/204399627-563cd7c2-0f75-4e06-a309-97af0b7c3b56.png)
+
+- Trigger CD pipeline by creating a new release
+![Screen Shot 2022-11-28 at 3 08 37 PM](https://user-images.githubusercontent.com/48584294/204399764-79a139be-d219-4890-8c65-fffad3da8024.png)
+
+- Output of the deployment
+![Screen Shot 2022-11-28 at 3 09 04 PM](https://user-images.githubusercontent.com/48584294/204399826-24a1e76d-8ee6-4abd-9535-f17c16ac029a.png)
+
+- GKE - Workload is up and running
+![Screen Shot 2022-11-28 at 3 13 31 PM](https://user-images.githubusercontent.com/48584294/204400375-17dc54f5-16bd-453e-9410-47565669f1d1.png)
+
