@@ -1,6 +1,11 @@
 # CMPE 172 - Lab #10 - DevOps CI/CD Notes
 
-### Part 1 CI Workflow
+### Reflection: 
+In this project, I really enjoy learning how to create the CI/CD pipeline to build the code quickly using Github Action. In the past, I worked as a SWE Intern at the company usingg Bamboo Continuous and Deployment Build, I saw lots of policy and test cases that my code had to ran through everytime I pushed my code. However, I didn't really understand how did they set up these system.. Finally, until today! After finish this assignment, I learnt from how to configuring the yaml file for both the Building JAVA with Gradle and Building with GKE. One of the difficulty was the region for the cluster, the given regiion on Canvas didn't have enough resources so I had to create a couple of cluster with different region and finally I found the us-west4-c is working. It was timeconsuming because everytime creating the cluster, It tok quite amount of time... But I figured it out myself by reading the error note and researched on Google to find the solution for my issue. 
+
+### Part 1 CI Workflow:
+#### Description: In this project, I will create the workflow performing the CI using Gumball project with gradle building tool. Everytime I trigger the commit to be built and test the failure on the default branch. The goal is to make sure the code in the repos are always quality and error-free. 
+
 - Gradle build processing new push from local environmnet 
 ![Screen Shot 2022-11-28 at 3 27 31 PM](https://user-images.githubusercontent.com/48584294/204402119-8b054cbf-3f51-4101-9284-5ebc32cd9537.png)
 ![Screen Shot 2022-11-28 at 3 27 45 PM](https://user-images.githubusercontent.com/48584294/204402144-9985ad5c-5d0d-4f9d-b9cd-49aa889cdcf8.png)
@@ -12,7 +17,9 @@
 ![Screen Shot 2022-11-28 at 3 28 27 PM](https://user-images.githubusercontent.com/48584294/204402228-348a10b3-344b-4237-abda-e8a7056f3ac0.png)
 
 
-### Part 2 Workflow GKE
+### Part 2 Workflow GKE: 
+#### Description: In the second part, I create the container for the application to push on the Google Container Registry to deploy on Google Kubernetes Engine and deploy the application on GKE using Load balancer with 2 pods. 
+
 - My cluster is up and running 
 ![Screen Shot 2022-11-28 at 3 02 18 PM](https://user-images.githubusercontent.com/48584294/204399014-7d16c9a7-62a0-4440-90bc-994b9a926c2e.png)
 
