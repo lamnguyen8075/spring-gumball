@@ -10,7 +10,7 @@ spec:
   replicas: 2 # tells deployment to run 2 pods matching the template
   template: # create pods using pod definition in this template
     metadata:
-      # Testing CI/CD
+      # Testing CI/CD 123
       # unlike pod.yaml, the name is not included in the meta data as a unique name is
       # generated from the deployment name
       labels:
