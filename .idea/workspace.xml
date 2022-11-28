@@ -4,57 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c15113c0-0e8c-421c-8c86-2688a02385df" name="Changes" comment="Terminated 1">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initializr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kustomization.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/01CiWorkflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/02workflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/03key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/04key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/05key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/06cluster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/07release.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/08release.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/09release.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/10release.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/11confirmpods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/12workloads.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/13service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/14ingress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/15gumball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/gumball-stattemodel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/gumball-uml-diagrams.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballMachineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/SpringGumballApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/giant-gumball-machine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/gumball.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/gumballmachine/GumballMachineTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springgumball/SpringGumballApplicationTests.java" afterDir="false" />
+    <list default="true" id="c15113c0-0e8c-421c-8c86-2688a02385df" name="Changes" comment="Inint Gumball">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669590509182</updated>
-      <workItem from="1669590511592" duration="3671000" />
+      <workItem from="1669590511592" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1669622304556</created>
@@ -167,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669674923157</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Inint Gumball">
+      <created>1669674995201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669674995201</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +152,7 @@
     <MESSAGE value="Update repos spring-gumball" />
     <MESSAGE value="Terminated" />
     <MESSAGE value="Terminated 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminated 1" />
+    <MESSAGE value="Inint Gumball" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inint Gumball" />
   </component>
 </project>
